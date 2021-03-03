@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message Person {
+    int32 age = 1;
+    string fname = 2;
+    string lname = 3;
+    bytes small_picture = 4;
+    bool is_profile_verified = 5;
+    float height = 6;
+    
+    // repeated is list that take 0 or more elements
+    repeated string phone_numbers = 7;
+    repeated float scores = 8;
+
+}
