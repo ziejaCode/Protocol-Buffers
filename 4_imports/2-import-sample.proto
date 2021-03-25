@@ -15,6 +15,7 @@ message Person {
     repeated string phone_numbers = 7;
     repeated float scores = 8;
 
+    // imported proto type
     Date birthday = 9;
 
     enum EyeColor {

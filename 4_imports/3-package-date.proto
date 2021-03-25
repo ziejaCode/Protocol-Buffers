@@ -7,3 +7,9 @@ message Date {
     int32 month = 2;
     int32 day = 3;
 }
+
+message Car {
+    int age = 1;
+    string make = 2;
+    string model = 3;    
+}

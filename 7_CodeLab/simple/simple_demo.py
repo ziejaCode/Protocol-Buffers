@@ -1,6 +1,7 @@
 
 
-import simple.simple_pb2 as simple_pb2
+import simple_pb2 as simple_pb2
+#from simple import simple_pb2 as simple_pb2
 
 simple_message = simple_pb2.SimpleMessage()
 simple_message.id = 123
@@ -15,7 +16,7 @@ print(simple_message)
 
 with open("simple.bin", "wb") as f:
     print("write as binary")
-    bytesAsString = simple_message.SerializeToString()
+    bytesAsString = simple_message.SerializeToString() 
     f.write(bytesAsString)
 
 

@@ -19,6 +19,8 @@ message Person {
 
     my.date.Date birthday = 9;
 
+   
+
     enum EyeColor {
         UNKNOWN = 0;
         BLUE = 1;
@@ -37,9 +39,10 @@ message Person {
     }
 
     // person have multiple addresses
-    repeated Address addresses =  10;
+    repeated Address addresses =  11;
+    
 
-    }
+    my.date.Car car = 12;
 
 
 }
