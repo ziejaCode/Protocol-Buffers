@@ -1,6 +1,5 @@
 
-
-import complex.complex_pb2 as complex_pb2
+import complex_pb2 as complex_pb2
 
 complex_message = complex_pb2.ComplexMessage()
 
