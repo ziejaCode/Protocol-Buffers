@@ -3,6 +3,8 @@ import complex_pb2 as complex_pb2
 
 complex_message = complex_pb2.ComplexMessage()
 
+complex_message.
+
 # WRONG!
 # one_dummy_message = complex_pb2.DummyMessage()
 # one_dummy_message.id = 123
